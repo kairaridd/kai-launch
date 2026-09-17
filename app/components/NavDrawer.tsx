@@ -23,8 +23,12 @@ interface DrawerMenuItem {
 }
 
 const items: DrawerMenuItem[] = [
-  { text: 'Home', route: '/home' },
+  { text: 'Welcome', route: '/home' },
   { text: 'Goals', route: '/goals' },
+  { text: 'Placements', route: '/jobs' },
+  { text: 'My Projects', route: '/projects' },
+  { text: 'Thank-You', route: '/thanks' }
+
 ];
 
 export default function NavOverlay({ children }: { children: React.ReactNode }) {

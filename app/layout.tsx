@@ -5,7 +5,7 @@ import "./globals.css";
 import NavOverlay from "./components/NavDrawer";
 export const metadata: Metadata = {
   title: "Kai Launch",
-  description: "App created with Next.js and KendoReact",
+  description: "none",
 };
 
 export default function RootLayout({

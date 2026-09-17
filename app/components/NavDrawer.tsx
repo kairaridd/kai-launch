@@ -24,8 +24,8 @@ interface DrawerMenuItem {
 
 const items: DrawerMenuItem[] = [
   { text: 'Welcome', route: '/home' },
-  { text: 'Goals', route: '/goals' },
   { text: 'Placements', route: '/jobs' },
+  { text: 'Goals', route: '/goals' },
   { text: 'My Projects', route: '/projects' },
   { text: 'Thank-You', route: '/thanks' }
 

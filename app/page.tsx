@@ -1,32 +1,58 @@
-import '@progress/kendo-theme-meridian/dist/all.css';
-import {
-    AppBar,
-    AppBarSection,
-    AppBarSpacer,
-    Avatar,
-    Drawer,
-    DrawerContent,
-    DrawerSelectEvent
-} from '@progress/kendo-react-layout';
+import { redirect } from 'next/navigation';
 
-import { HugeiconsIcon } from '@hugeicons/react';
-import { Notification03Icon } from '@hugeicons/core-free-icons'
-
-
-export default function Home() {
-  return(
-    <>
-    <AppBar>
-      <AppBarSection>Test</AppBarSection>
-      <AppBarSection>
-        <HugeiconsIcon icon={Notification03Icon} />
-      </AppBarSection>
-    </AppBar>
-    </>
-  );
+export default function RootPage() {
+  redirect('/home');
 }
 
+// import '@progress/kendo-theme-meridian/dist/all.css';
+// import React from 'react';
+// import { useNavigate, useLocation, Routes, Route } from 'react-router-dom';
+// import { Drawer, DrawerContent } from '@progress/kendo-react-layout';
 
+// import { HugeiconsIcon } from '@hugeicons/react';
+// import { Notification03Icon } from '@hugeicons/core-free-icons'
+
+// const pages = [
+//   {text: 'About Me', icon: 'k-i-home', route: '/'},
+//   {text: 'Learning Goals', icon: 'k-i-home', route: '/goals'},
+
+// ];
+
+
+// const Home = () => <div className="p-4"><h2>Home Page</h2></div>;
+// const Products = () => <div className="p-4"><h2>Products Page</h2></div>;
+
+// export default function NavDrawer({ children }) {
+//   const router = useRouter();
+//   const pathname = usePathname();
+
+//   const handleSelect = (e) => {
+//     const targetRoute = e.itemTarget.props.route;
+//     if (targetRoute) {
+//       router.push(targetRoute);
+//     }
+//   };
+
+//   // Map items and set selected state based on current route
+//   const drawerItems = items.map((item) => ({
+//     ...item,
+//     selected: item.route === pathname
+//   }));
+
+//   return (
+//     <Drawer
+//       expanded={true}
+//       position="start"
+//       mode="push"
+//       items={drawerItems}
+//       onSelect={handleSelect}
+//     >
+//       <DrawerContent>
+//         {children}
+//       </DrawerContent>
+//     </Drawer>
+//   );
+// }
 
 // import Image from "next/image";
 

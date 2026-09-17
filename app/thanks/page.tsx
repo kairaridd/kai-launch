@@ -1,6 +1,6 @@
 import goalImage from '../images/micah-tindell-0LvgvMjomnk-unsplash_1.jpg';
 
-export default function HomePage() {
+export default function ThanksPage() {
 
   return (
     <div>
@@ -15,15 +15,25 @@ export default function HomePage() {
 
         {/* Overlay Text */}
         <h1 className="relative z-10 text-4xl font-extrabold tracking-wide drop-shadow-md">
-          Welcome
+          Thank-You
         </h1>
       </div>
 
-      <h1 style={{textAlign: 'center'}} className="text-3xl text-[#ffbf00ff] font-bold">Hello, nice of you to drop by! </h1>
+      <h1 style={{textAlign: 'center'}} className="text-3xl text-[#ffbf00ff] font-bold">Thanks for dropping by!
+ </h1>
+ <p style={{textAlign: 'center'}}>If you have any questions about anything, feel free to contact me at: kriddell@uoguelph.ca.</p>
       <br></br>
-      <p style={{textAlign: 'center'}}>This website serves as a central hub detailing my Co-Op placements and experiences during my time at the University of Guelph. It is a record of my journey in the big wide universe of Computer Science. Feel free to have a look around. Use the lefthand hamburger menu bar to explore.
+
+<h1 style={{textAlign: 'center'}} className="text-3xl text-[#ffbf00ff] font-bold">Acknowledgements
+
+ </h1>
+      <p style={{textAlign: 'center'}}> Special thanks to Tammy, Kousik, and Aaravinda. You have been so helpful in helping me navigate corporate life, answering my questions, and helping me navigate any of my access related issues. </p>
+
+<br></br><br></br><br></br><br></br>
+<p style={{textAlign: 'center'}}>
+ This website will be built upon as I complete more work terms.
 </p>
-<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 
     </div>
   );

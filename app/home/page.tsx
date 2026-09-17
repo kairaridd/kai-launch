@@ -1,4 +1,4 @@
-import goalImage from '../images/micah-tindell-0LvgvMjomnk-unsplash_1.jpg';
+import homeImage from '../images/earth.jpg';
 
 export default function HomePage() {
 
@@ -8,7 +8,7 @@ export default function HomePage() {
      {/* Hero Section */}
       <div
         className="relative w-full h-64 rounded-xl overflow-hidden bg-cover bg-center flex items-center justify-center text-white shadow-lg"
-        style={{ backgroundImage: `url(${goalImage.src || goalImage})` }}
+        style={{ backgroundImage: `url(${homeImage.src})` }}
       >
         {/* Dark Overlay for contrast */}
         <div className="absolute inset-0 bg-black/40" />

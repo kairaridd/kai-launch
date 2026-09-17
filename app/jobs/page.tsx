@@ -1,5 +1,6 @@
 import manulifeLogo from '../images/manulife-logo.jpg'
 import manulifeBoard from '../images/maulife-skateboard.jpg'
+import heroImage from '../images/galaxy.jpg'
 export default function JobPage() {
 
   return (
@@ -8,7 +9,7 @@ export default function JobPage() {
      {/* Hero Section */}
       <div
         className="relative w-full h-64 rounded-xl overflow-hidden bg-cover bg-center flex items-center justify-center text-white shadow-lg"
-        style={{ backgroundImage: `url(${ manulifeLogo.src})` }}
+        style={{ backgroundImage: `url(${ heroImage.src})` }}
       >
         {/* Dark Overlay for contrast */}
         <div className="absolute inset-0 bg-black/40" />
@@ -19,6 +20,7 @@ export default function JobPage() {
         </h1>
       </div>
 
+ <br></br>
       <h1 className="text-3xl text-[#ffbf00ff] font-bold">WT1: Manulife </h1>
         <img
         src={manulifeLogo.src}

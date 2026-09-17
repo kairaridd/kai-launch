@@ -1,4 +1,4 @@
-import goalImage from '../images/micah-tindell-0LvgvMjomnk-unsplash_1.jpg';
+import goalImage from '../images/launchArc.jpg';
 
 export default function ThanksPage() {
 

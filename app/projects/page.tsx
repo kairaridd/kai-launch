@@ -1,4 +1,4 @@
-import goalImage from '../images/micah-tindell-0LvgvMjomnk-unsplash_1.jpg';
+import goalImage from '../images/computers.jpg';
 import GICErr from '../projectMedia/GIC_Page_Error_Expl.png'
 import DPJournErr from '../projectMedia/Dp_Upload_OutofFocus.png'
 import uFeesRep from '../projectMedia/uFees_automation_mock.png'
@@ -20,9 +20,17 @@ export default function ProjectsPage() {
           My Projects
         </h1>
       </div>
-
+<br></br><br></br>
       <h1 className="text-3xl text-[#ffbf00ff] font-bold">GIC Fee Page
       </h1>
+      {/* <video
+  controls
+  preload="metadata"
+  className="w-full max-w-2xl my-4 rounded-lg shadow"
+>
+  <source src="/projectMedia/GIC_Page_Demo.webm" type="video/webm" />
+  Your browser does not support video playback.
+</video> */}
       <p>A page I built in an internal application used to review and manage fee transactions. The GIC Page is used to assist in the process of reviewing GIC Fees, enabling faster review through bulk record selection and status updates. Approved rows get moved to a different table where they can be seen on either the ‘Review Fees’, or ‘Fee Report’ pages. Programmed in Javascript, this application uses React JS, Next JS, the KendoReact component library, and an internal Manulife MUX icon and component library. Backend updates are handled by a Type ORM transaction.</p>
 <img
         src={GICErr.src}
@@ -34,7 +42,7 @@ export default function ProjectsPage() {
 </p>
 
 
-
+<br></br><br></br>
         <h1 className="text-3xl text-[#ffbf00ff] font-bold">uFees Report Automation
       </h1>
       <img
@@ -46,9 +54,17 @@ export default function ProjectsPage() {
       <p>The automation of the uFees reports involves the user dropping the raw data retrieved from the internal uFees application into a folder. Currently the report uses a SharePoint folder, but due to the business users being unable to grant me access to any of their current SharePoint sites due to them containing sensitive information, I will be changing the data source to a Network Folder accessed via a service account in my second work term at Manulife. The data is loaded into and transformed via Power BI Desktop before the final report data is formatted in Power BI Reports. I had to use Power BI Reports because the process of building the report data involves using aggregated rows. Power BI Desktop limits tables with aggregated data to 30,000 rows when exporting. My report had more rows than that so I pivoted to using Power BI Reports, which allowed me to apply more formatting and most importantly does not have a row limit.
 </p>
 
-
+<br></br><br></br>
     <h1 className="text-3xl text-[#ffbf00ff] font-bold">Dataphile Journal Upload
       </h1>
+      {/* <video
+  controls
+  preload="metadata"
+  className="w-full max-w-2xl my-4 rounded-lg shadow"
+>
+  <source src="/projectMedia/DP_Upload_Demo.webm" type="video/webm" />
+  Your browser does not support video playback.
+</video> */}
       <p>This project consists of a Power Automate Desktop flow that is used to auto-upload files (called journals) to the internal Dataphile application. The PAD flow incorporates messages to guide the user though running the flow. The Dataphile application is not super compatible with PAD, with some buttons and menus not registering as such, so it was an interesting challenge to figure out how to get around those restrictions (mainly by simulating keyboard shortcuts).
 </p>
       <img
@@ -61,7 +77,7 @@ export default function ProjectsPage() {
 
 </p>
 
-
+<br></br><br></br>
     <h1 className="text-3xl text-[#ffbf00ff] font-bold">Intern Innovation Challenge
 
       </h1>

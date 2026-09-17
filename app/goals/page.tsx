@@ -21,7 +21,7 @@ export default function GoalsPage() {
         {/* <GoalNav></GoalNav> */}
 
 <br></br>
-      <h2 class="text-3xl text-[#ffbf00ff] font-bold">Goal 1</h2>
+      <h2 className="text-3xl text-[#ffbf00ff] font-bold">Goal 1</h2>
     <div className="space-y-6">
       <p><b>Leaning Goal:</b><br></br>
  Learn more about and become comfortable with agile methodology in development. Understand how to use Jira (sprints, stories, etc.) to track progression During Development.
@@ -33,7 +33,7 @@ Working at a big company like Manulife really opened my eyes to how much organiz
    </div>
     <br></br>
 
-      <h2 class="text-3xl text-[#ffbf00ff] font-bold">Goal 2</h2>
+      <h2 className="text-3xl text-[#ffbf00ff] font-bold">Goal 2</h2>
       <div className="space-y-6">
       <p><b>Leaning Goal:</b><br></br>
 
@@ -47,8 +47,7 @@ This is a topic which I went into entirely blind. Through working on automating 
    </div>
    <br></br>
 
-
-      <h2 class="text-3xl text-[#ffbf00ff] font-bold">Goal 3</h2>
+      <h2 className="text-3xl text-[#ffbf00ff] font-bold">Goal 3</h2>
       <p><b>Learning Goal:</b>
       <br></br>
 Learn more about how Javascript (Using the react library) can be used to implement functionality of interactive elements like buttons, navigation menus, etc. in a website. </p>
